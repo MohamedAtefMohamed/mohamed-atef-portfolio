@@ -88,16 +88,21 @@ export default function Home() {
 
       <main id="main-content">
         <section id="top" className={`hero ${scanActive ? "is-scanning" : ""}`}>
-          <img className="hero-art" src={ASSETS.hero} alt="Light Yagami sitting at his desk writing with Ryuk looming behind him" />
+          <img className="hero-art" src={ASSETS.hero} alt="Light Yagami writing at his desk" />
+          <div className="ryuk-companion-wrapper" aria-hidden="true">
+            <img className="ryuk-companion" src="/assets/ryuk-overlay.png" alt="Ryuk floating object" />
+          </div>
           <div className="hero-wash" aria-hidden="true" />
           <div className="hero-parallax" aria-hidden="true"><i className="ink-wisp wisp-one" /><i className="ink-wisp wisp-two" /><i className="ink-wisp wisp-three" /></div>
           <div className="hero-paper-traces" aria-hidden="true"><i /><i /><i /></div>
           <div className="hero-scanline" aria-hidden="true" />
           <div className="hero-content">
-            <FileLabel>MOHAMED ATEF / CASE FILE</FileLabel>
-            <p className="hero-kicker">Mohamed Atef · Cybersecurity Researcher · Bug Hunter · Penetration Tester</p>
-            <h1>MOHAMED ATEF<br /><em>EVERY EXPOSURE LEAVES A TRACE.</em></h1>
-            <p className="hero-copy">I investigate what systems reveal in silence, validate the evidence, and map security findings to the risk teams need to resolve.</p>
+            <FileLabel>CASE FILE / ACTIVE RESEARCH</FileLabel>
+            <h1 className="hero-title-single">
+              <span className="name-red">MOHAMED ATEF</span>
+            </h1>
+            <p className="hero-kicker">Cybersecurity Researcher · Bug Hunter · Penetration Tester</p>
+            <p className="hero-copy">Every exposure leaves a trace. Investigating silent system vulnerabilities and mapping evidence to actionable risk.</p>
             <div className="hero-actions"><Button asChild className="primary-action"><a href="#cases">Open the case files <ArrowDownRight /></a></Button><a className="secondary-action" href="#notes"><BookOpen /> Research notes</a><button type="button" className="scan-trigger" aria-pressed={scanActive} onClick={() => setScanActive((active) => !active)}><ScanSearch /> {scanActive ? "Pause field scan" : "Inspect live trace"}</button></div>
           </div>
         </section>
