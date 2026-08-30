@@ -1,0 +1,37 @@
+# Portfolio Review Checklist
+
+- [ ] Review the live portfolio preview and request any content or design adjustments.
+- [ ] Confirm the portfolio is ready for Vercel deployment.
+- [ ] Approve the Vercel connector enablement and any final deployment action.
+- [ ] Replace the archival-paper palette with a modern lava-red visual system.
+- [ ] Add polished, accessible lava-flow, ember, and section-reveal animations.
+- [ ] Review the redesigned portfolio before considering external deployment.
+- [ ] Add LinkedIn, X and GitHub links to the portfolio navigation and contact controls.
+- [ ] Introduce terminal, recon and attack-trace motifs while retaining readable lava-red visual hierarchy.
+- [ ] Verify the hacker-style update on desktop and mobile before deployment review.
+- [ ] Review XTIP’s official website and identify appropriate public visual assets or verified product details.
+- [ ] Review the supplied Medium profile and add a direct profile link or selected verified articles.
+- [ ] Redesign the portfolio with an original supernatural investigation-notebook aesthetic around the light0xyagmi identity.
+- [ ] Verify that the new visual direction remains readable, credible, and distinct from any copyrighted character artwork.
+- [x] Replace the bordered hero card with a full-screen investigation background and edge-to-edge composition.
+- [x] Add an original dark investigator visual motif without depicting the requested copyrighted character.
+- [x] Inspect the supplied UI/UX skill package and review all n8n workflow files for verified descriptions.
+- [x] Publish the n8n workflow project to a private GitHub repository and link it from the portfolio.
+- [x] Add a workflow skills and project section that accurately reflects the provided n8n automations.
+- [x] Simplify the investigation-notebook theme while retaining the original crimson research mood.
+- [x] Add an original investigator-and-supernatural-companion hero visual without reproducing named anime characters.
+- [x] Replace the signal-aperture logo with a simpler original identity mark.
+- [x] Review the simplified revision on desktop and mobile before considering deployment.
+- [x] Add a copyright-safe, interactive first-page investigator background inspired only by the supplied image’s mood.
+- [x] Implement pointer-responsive evidence threads, ink shadows and reduced-motion safeguards for the hero.
+- [x] Review the interactive first page on desktop and mobile before deployment consideration.
+- [x] Intensify the approved original live investigator-and-shadow-companion scene without using named Death Note characters.
+- [x] Remove the first-page status panel and preserve the expanded full-screen scene.
+- [x] Add a restrained original moonlit shadow-companion treatment informed only by the supplied image’s atmosphere.
+- [x] Restore the prior original archive hero background.
+- [x] Remove moving red evidence dots and drifting dot layers from the hero.
+- [x] Remove the remaining dotted evidence-thread lines from the first-page hero.
+- [x] Confirm that the pinned scroll behavior applies to the top navigation and implement it without obscuring content.
+- [x] Remove the hero’s red cursor-following inspection lens.
+- [ ] Restore the modern GitHub profile README presentation.
+- [ ] Publish the Scope-First Asset Ledger as a clean browsable repository structure instead of a ZIP-only release.
