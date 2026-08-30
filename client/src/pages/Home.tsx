@@ -88,10 +88,7 @@ export default function Home() {
 
       <main id="main-content">
         <section id="top" className={`hero ${scanActive ? "is-scanning" : ""}`}>
-          <img className="hero-art" src={ASSETS.hero} alt="Light Yagami writing at his desk" />
-          <div className="ryuk-companion-wrapper" aria-hidden="true">
-            <img className="ryuk-companion" src="/assets/ryuk-overlay.png" alt="Ryuk floating object" />
-          </div>
+          <img className="hero-art" src={ASSETS.hero} alt="Light Yagami writing at his desk with Ryuk looming behind him through the window" />
           <div className="hero-wash" aria-hidden="true" />
           <div className="hero-parallax" aria-hidden="true"><i className="ink-wisp wisp-one" /><i className="ink-wisp wisp-two" /><i className="ink-wisp wisp-three" /></div>
           <div className="hero-paper-traces" aria-hidden="true"><i /><i /><i /></div>
