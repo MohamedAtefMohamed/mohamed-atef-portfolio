@@ -94,9 +94,9 @@ export default function Home() {
           <div className="hero-paper-traces" aria-hidden="true"><i /><i /><i /></div>
           <div className="hero-scanline" aria-hidden="true" />
           <div className="hero-content">
-            <FileLabel>CASE FILE / ACTIVE</FileLabel>
-            <p className="hero-kicker">Cybersecurity researcher · bug hunter · penetration tester</p>
-            <h1>EVERY EXPOSURE<br /><em>LEAVES A TRACE.</em></h1>
+            <FileLabel>MOHAMED ATEF / CASE FILE</FileLabel>
+            <p className="hero-kicker">Mohamed Atef · Cybersecurity Researcher · Bug Hunter · Penetration Tester</p>
+            <h1>MOHAMED ATEF<br /><em>EVERY EXPOSURE LEAVES A TRACE.</em></h1>
             <p className="hero-copy">I investigate what systems reveal in silence, validate the evidence, and map security findings to the risk teams need to resolve.</p>
             <div className="hero-actions"><Button asChild className="primary-action"><a href="#cases">Open the case files <ArrowDownRight /></a></Button><a className="secondary-action" href="#notes"><BookOpen /> Research notes</a><button type="button" className="scan-trigger" aria-pressed={scanActive} onClick={() => setScanActive((active) => !active)}><ScanSearch /> {scanActive ? "Pause field scan" : "Inspect live trace"}</button></div>
           </div>
